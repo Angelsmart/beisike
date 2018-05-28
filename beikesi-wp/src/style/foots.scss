@@ -1,0 +1,33 @@
+.foots{
+    width: 1100px;
+    height: 300px;
+    background-color: lime;
+    background:url(../img/foot_V3.jpg) no-repeat center;
+    margin:0 auto;
+    div{
+        width: 135px;
+        height: 130px;
+        margin-top:40px;
+        float:right;
+        ul:nth-of-type(1){
+            width: 60px;
+            height: 100%;
+            float: left;
+            font-size: 12px;
+            font-family: "微软雅黑";
+            li{
+                margin-bottom: 10px;
+            }
+        }
+         ul:nth-of-type(2){
+            width: 60px;
+            height: 100%;
+            float: right;
+            font-size: 12px;
+            font-family: "微软雅黑";
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
